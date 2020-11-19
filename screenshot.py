@@ -3,7 +3,7 @@ import pyautogui
 
 
 root = Tk()
-root.geomentry("500x500")
+root.geometry("500x500")
 
 def take_a_screenshot():
     screenshot = pyautogui.screenshot()
