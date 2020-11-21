@@ -10,7 +10,7 @@ def take_a_screenshot():
     screenshot.save("screenshot.png")
 
 
-button = Button(root,text="Take a Screenshot",bg="yellow")
+button = Button(root,text="Take a Screenshot",bg="yellow",command=take_a_screenshot)
 button.pack()
 
 
